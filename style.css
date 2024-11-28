@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+}
+:root{
+--Blue: hsl(223, 87%, 63%);
+--Pale-Blue: hsl(223, 100%, 88%);
+--Light-Red: hsl(354, 100%, 66%);
+--Gray: hsl(0, 0%, 59%);
+--Very-Dark-Blue: hsl(209, 33%, 12%);
+}
+.ping-img{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+h1{
+    text-align: center;
+    color: var(--Gray);
+    font-weight: 300;
+}
+.brief{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color: var(--Very-Dark-Blue);
+}
+.bold{
+    color:var(--Very-Dark-Blue)
+}
+.form{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap:1rem;
+}
+
+.form .one{
+    /* height:2rem; */
+    height:50px;
+    width:20%;
+    border-radius: 2rem;
+    text-emphasis-color: white;
+    /* border-color: aquamarine; */
+    border: 2px solid hsl(223, 100%, 88%);
+    font-size: 1rem;
+    text-align: center;
+}
+.one::placeholder{
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.form .two{
+    height:50px;
+    width:10%;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    /* background-color:rgb(66, 66, 145) ; */
+    background-color: hsl(223, 87%, 63%);
+    /* box-shadow: 4px 4px 4px; */
+    box-shadow: 0px 0px 20px hsla(223,87% ,63%,0.32);
+    border: none;
+    cursor: pointer;
+}
+.form .two::placeholder{
+    color: white;
+}
+.form .one::placeholder{
+    color:var(--Pale-Blue);
+}
+.img{
+    text-align: center;
+}
+.img img {
+    width:30%;
+    height:10%;
+}
+.icons{
+  margin:4rem 0 2rem;
+    display:flex;
+    justify-content: center;
+    gap:1.5rem;
+    color: var(--Blue);
+}   
+.last{
+    font-size: .8rem;
+    margin-top: 5px;
+    color:var(--Gray);
+    text-align: center;
+}
